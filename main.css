@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Rubik", serif;
+    background: #F9FAFF;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 55px;
+    margin-bottom: 52px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+}
+
+li{
+    list-style: none;
+}
+
+li:last-child{
+    margin-left: -26px;
+}
+
+li a{
+    color: #363853;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: none;
+    transition: .3s all ease-in-out;
+}
+
+li a:hover{
+    color: #ff6838;
+}
+
+.header_btn{
+    border-radius: 5px;
+    box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+    background: #ff7a50;
+    border: none;
+    padding: 15px 27px;
+
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hero_content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 125px;
+}
+
+.hero_content_right{
+    margin-left: -41px;
+}
+
+.hero_title{
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78px;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+
+    span{
+        color: #FF7A50;
+    }
+}
+
+.about_hero{
+    color: #363853;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-bottom: 45px;
+}
+
+.hero_btn{
+    border-radius: 5px;
+    box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+    background: #ff7a50;
+    padding: 13px 21px;
+    border: none;
+
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.hero_left{
+    margin-right: -46px;
+}
+
+.about_us_content{
+    display: flex;
+    align-items: center;
+    gap: 0 137px;
+    margin-bottom: 45px;
+}
+
+.about_us_content_left{
+    margin-left: -45px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-bottom: 95px;
+
+    span{
+        color: #FF7A50;
+    }
+}
+
+.about_us_about{
+    color: #363853;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.9;
+    margin-bottom: 140px;
+}
+
+.about_us_btn{
+    border-radius: 30px 30px 1px 30px;
+    box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+    background: #ff7a50;
+    padding: 17px 44px;
+
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+
+.retaurant_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.retaurant_content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 162px;
+}
+
+.item{
+    border-radius: 53px 5px 53px 5px;
+    background: rgb(255, 255, 255);
+    width: 361px;
+}
+
+.retaurant_item_about{
+    padding: 22px 0 22px 20px;
+}
+
+.retaurant_item_title{
+    color: #363853;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 14px;
+}
+
+.retaurant_item_time{
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.retaurant_item_span{
+    color: #363853;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    opacity: 0.9;
+}
+
+.restaurant_item_more{
+    border-radius: 20px 20px 0px 20px;
+    box-shadow: 0px 5px 12px 0px rgba(255, 104, 56, 0.19);
+    background: #ff7a50;
+    width: 79px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+.app_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+.app_title{
+    margin-bottom: 30px;
+}
+
+.about_app{
+    color: #363853;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.9;
+}
+
+.subscribe_content{
+    border-radius: 20px;
+    background: #ff7a50;
+    padding: 57px 165px;
+    margin-bottom: 197px;
+}
+
+.subscribe_title{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    border-radius: 70px;
+    box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+    background: #ffffff;
+    justify-content: space-between;
+    padding: 10px 10px 10px 43px;
+}
+
+input{
+    color: #363853;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 500px;
+    border: none;
+    outline: none;
+}
+
+.subscribe_btn{
+    border: 1px solid #000000;
+    border-radius: 70px;
+    background: #ff7a50;
+    padding: 15px 33px 15px 47px;
+
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
